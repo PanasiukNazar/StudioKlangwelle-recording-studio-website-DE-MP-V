@@ -2242,6 +2242,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 .single-testimonial:hover {
     cursor: pointer;
 }
+
+@media (max-width: 574px) {
+    .single-testimonial {
+        display: flex !important;
+        flex-direction: column !important;
+    }
+}
+
 .single-testimonial .thumb {
     margin-right: 30px;
 }
@@ -2641,6 +2649,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 991px) {
     .project-details-right {
         margin-top: 50px;
+    }
+}
+@media (max-width: 540px) {
+    .copyriting-second-block {
+        flex-direction: column !important;
     }
 }
 .project-details-right .details-info .names li {
